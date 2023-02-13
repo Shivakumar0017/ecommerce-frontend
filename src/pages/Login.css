@@ -1,0 +1,19 @@
+.login__image--container{
+    background-image: url("https://res.cloudinary.com/dojujbi3u/image/upload/v1673243804/online_shopping_addiction-scaled_vcahny.jpg");
+    height: 90vh;
+    background-size: cover;
+}
+
+.login__form--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+@media screen and (max-width:756px){
+    .signup__image--container{
+        display: none;
+    }
+    
+}
